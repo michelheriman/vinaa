@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <title>Our Team</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+
+        .header {
+            text-align: center;
+            padding: 50px;
+            background-color: #2b4665;
+            color: white;
+            box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .header h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+
+        .team-section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 50px 20px;
+            background-color: radial-gradient(circle, #273865, #f8f8f3); /* #fff;*/
+        }
+
+        .team-member {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 20px;
+            width: 250px;
+            text-align: center;
+            padding: 30px 20px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .team-member:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .team-member img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            margin-bottom: 20px;
+        }
+
+        .team-member h3 {
+            margin: 10px 0;
+            font-size: 1.5em;
+            color: #333;
+        }
+
+        .team-member p {
+            color: #777;
+            font-size: 1em;
+        }
+
+        .team-member .social-icons {
+            margin-top: 15px;
+        }
+
+        .social-icons a {
+            text-decoration: none;
+            color: #4A90E2;
+            margin: 0 10px;
+            font-size: 1.5em;
+        }
+
+        /* Responsive layout */
+        @media (max-width: 768px) {
+            .team-member {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <div class="header">
+        <h1>Meet Our Team</h1>
+        <p>We are a group of passionate professionals</p>
+    </div>
+
+    <!-- Team Section -->
+    <div class="team-section">
+
+        <!-- Team Member 1 -->
+        <div class="team-member">
+            <img src="./asset/Tahina.png" alt="Team Member 1">
+            <h3>Tahiana Rajaobelison</h3>
+            <p>CEO & Founder</p>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/tahina-rajaobelison-a3803a242/?originalSubdomain=mg"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+
+        <!-- Team Member 2 -->
+        <div class="team-member">
+            <img src="./asset/DSC_8109.jpg" alt="Team Member 2">
+            <h3>Michel Raherimanantsoa</h3>
+            <p>Lead Developer</p>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/michel-raherimanantsoa-2bab19a9/"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+
+        <!-- Team Member 3 -->
+        <div class="team-member">
+            <img src="https://via.placeholder.com/150" alt="Team Member 3">
+            <h3>Emily Johnson</h3>
+            <p>UI/UX Designer</p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-dribbble"></i></a>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
